@@ -36,7 +36,7 @@ const Login: NextPage = () => {
     } catch (e: unknown) {
       const error = e as AxiosError<{ msg: string }>;
 
-      setErrorMessage(error.response?.data.msg || 'An error has occured. Please try again.');
+      setErrorMessage(error.response?.data?.msg || 'An error has occured. Please try again.');
       setValidity(false);
     }
     setSigningState(false);

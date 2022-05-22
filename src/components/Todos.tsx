@@ -1,11 +1,11 @@
 import { Heading, Table, TableContainer, Tbody, Td, Th, Thead, Tr } from '@chakra-ui/react';
 import type { FC } from 'react';
-import type { ITodos } from '../types/api';
+import type { ITodo } from '../types/api';
 import styles from '../styles/components/Todos.module.scss';
 
 interface IProps {
   name: string;
-  todos: ITodos[];
+  todos: ITodo[];
 }
 
 const Todos: FC<IProps> = ({ name, todos }) => {
