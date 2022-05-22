@@ -25,3 +25,20 @@ a {
 * {
   box-sizing: border-box;
 }
+
+table {
+  width: 100%;
+
+  tbody {
+    tr {
+      td {
+        word-break: break-all;
+        white-space: break-spaces;
+      }
+
+      th, td {
+        padding: 1rem;
+      }
+    }
+  }
+}
