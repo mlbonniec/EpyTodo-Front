@@ -1,0 +1,14 @@
+.todos {
+  .table-title {
+    margin-bottom: 2rem;
+    text-shadow: 2.5rem -1.5rem 0 rgba(#000, 0.03)
+  }
+
+  table {
+    td {
+      &.title {word-break: initial;}
+      &.description {max-width: 35vw;}
+      &.status {text-transform: capitalize;}
+    }
+  }
+}
