@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+  .title {
+    margin-bottom: 1.5rem;
+  }
+
+  .auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+
+    input {
+      margin-bottom: .5rem;
+    }
+
+    .button {
+      margin-top: 1rem;
+      width: 100%;
+    }
+  }
+
+  .redirect {
+    font-size: .85rem;
+    margin-top: 1rem;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}
