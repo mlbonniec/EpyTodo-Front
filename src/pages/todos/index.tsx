@@ -1,12 +1,12 @@
 import axios from 'axios';
 import type { NextPage, GetServerSidePropsContext } from 'next';
 import { getCookie } from 'cookies-next';
-import Header from '../components/Header';
-import Todos from '../components/Todos';
-import { getAPIURL } from '../utils/api-url';
-import { requiredAuthentication } from '../utils/auth/required';
-import type { ITodo } from '../types/api';
-import styles from '../styles/pages/Index.module.scss';
+import Header from '../../components/Header';
+import Todos from '../../components/Todos';
+import { getAPIURL } from '../../utils/api-url';
+import { requiredAuthentication } from '../../utils/auth/required';
+import type { ITodo } from '../../types/api';
+import styles from '../../styles/pages/Index.module.scss';
 
 interface IProps {
   todos: ITodo[];

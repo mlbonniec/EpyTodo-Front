@@ -3,6 +3,8 @@ export interface ITodo {
   title: string;
   description: string;
   status: string;
+  user_id: number;
+  due_time: string;
 }
 
 export interface IUser {
@@ -11,5 +13,5 @@ export interface IUser {
   password: string;
   name: string;
   firstname: string;
-  created_at: Date;
+  created_at: string;
 }

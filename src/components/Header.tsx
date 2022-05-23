@@ -21,8 +21,8 @@ const Header: FC = () => {
   return (
     <header className={styles.header}>
       <nav>
-        <Link href="/">
-          <a>All Todos</a>
+        <Link href="/todos">
+          <a>Todos</a>
         </Link>
         <Link href="/todos/new">
           <a>New Todo</a>
